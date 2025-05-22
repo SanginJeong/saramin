@@ -50,6 +50,7 @@
 
 #### User
 - 회원가입 : /api/user POST (userId, password, checkPassword, name, age, email,gender,addr1, addr2)
+- 중복아이디 체크 : /api/userId POST (userId)
 - 로그인 : /api/user/login POST (userId, password)
 - 회원정보 수정 : /api/user PATCH
 - 회원탈퇴 : /api/user DELETE
@@ -65,7 +66,8 @@
 - name : String,
 - age : Number,
 - email : String,
-- address : String,
+- addr1 : String,
+- addr2 : String,
 - applicationList : String,  (공고 신청 내역)
 
 
@@ -73,6 +75,6 @@
 
 
 ## 개발일지
- - [2025-05-16 개발일지]()
+ - [2025-05-17 개발일지](https://jeongsangin1.tistory.com/31)
 
 ## 프로젝트 결과
